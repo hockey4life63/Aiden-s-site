@@ -94,8 +94,20 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+.brand-small>img{
+    height:45px;
+    width: 81;
+}
+
+.brand-big>img{
+    height: 100px;
+    width: 196px;
+}
+
 body{
     background: #4c4c4c url("../img/footer_lodyas.png") repeat left top;
+    height: 100%;
 }
 h1{
     padding-top: 0;
@@ -187,6 +199,7 @@ ul.nav{
 .about-text{
     color: #cbcbcb;
 }
+
 /* nav bar color */
 
 .navbar-brand{
@@ -248,6 +261,14 @@ ul.nav{
   color: #4c4c4c;
 }
 
+/*footer seetings*/
+.footie>li{
+    font-size: 15px;
+    border-width: 0px;
+}
+.footer{
+
+}
 
 
 
