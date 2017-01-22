@@ -118,10 +118,10 @@ h1.titles{
     color: #0d3881;
     font-size: 50px;
 }
-ul.nav{
+ul.pad-left{
     padding-left: 0px;
 }
-
+/*set the carousel on main page */
 .carousel-caption{
     font-family: 'Arvo', serif;
     color: #0d3881;
@@ -141,11 +141,12 @@ ul.nav{
     font-size: 25px;
     color: black;
 }
-
+/* panel settings */
 .panel{
     margin-top: 10px;
     background-color: #333333;
     border-color: #666666;
+    width: 100%;
 }
 
 .panel-title{
@@ -164,24 +165,21 @@ ul.nav{
 
 }
 
+.flex, .flex > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+}
+/*store hours title */
 .store-hr{
     font-size: 25px;
 }
-.navbar-nav {
-  float: none;
-  /*text-align: center;*/
-}
-
-.phnum{
-    color: #001f68;
-    font-size: 20px;
-    margin-right: 10px;
-}
-.navbar-nav>li {
-  float: none;
-  display: inline-block;
-  font-size: 30px;
-  font-family: 'Arvo', serif;
+/*hours spacing */
+.store-hours{
+    float: right;
 }
 
 
@@ -200,7 +198,24 @@ ul.nav{
     color: #cbcbcb;
 }
 
-/* nav bar color */
+/* nav bar settings */
+
+.navbar-nav {
+  float: none;
+  text-align: center;
+}
+.phnum{
+    color: #001f68;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.navbar-nav>li {
+  display: inline;
+  font-size: 30px;
+  font-family: 'Arvo', serif;
+}
 
 .navbar-brand{
     padding-top: 0px;
@@ -263,10 +278,12 @@ ul.nav{
 
 /*footer seetings*/
 .footie>li{
-    font-size: 15px;
-    border-width: 0px;
+    float: none;
+    font-size: 10px;
+    display: inline-block;
+
 }
-.footer{
+.footie{
 
 }
 
