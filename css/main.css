@@ -101,8 +101,17 @@ textarea {
 }
 
 .brand-big>img{
-    height: 100px;
-    width: 196px;
+    height: 75px;
+    display: block;
+    margin-top: 10px;
+}
+
+.lock-logo{
+    height: 25px;
+    float: right;
+    margin-top:10px;
+    margin-right: 10px;
+
 }
 
 body{
@@ -156,6 +165,7 @@ ul.pad-left{
 
 .panel-body{
     color: #cbcbcb;
+
 }
 .panel > .panel-heading {
     background-image: none;
@@ -199,6 +209,10 @@ ul.pad-left{
 }
 
 /* nav bar settings */
+.main-navbar{
+    white-space:nowrap
+
+}
 
 .navbar-nav {
   float: none;
@@ -207,7 +221,8 @@ ul.pad-left{
 .phnum{
     color: #001f68;
     font-size: 20px;
-    margin-right: 10px;
+    margin-left: 175px;
+
 }
 
 
