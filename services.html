@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -34,23 +35,26 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand hidden-xs" href="#">
-                        <img alt="Brand" src="img/NHSlogosm.png" >
+                    <a class="navbar-brand hidden-xs brand-big " href="#">
+                        <img alt="Brand" src="img/logolarge1.png" >
                     </a>
-                    <a class="navbar-brand visible-xs" href="#">
-                        <img alt="Brand" src="img/NHSlogoxs.png" >
+                    <a class="navbar-brand visible-xs brand-small" href="#">
+                        <img alt="Brand" src="img/logolarge1.png" >
                     </a>
                   </div>
 
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav ">
+                    <ul class="nav pad-left navbar-nav main-navbar">
                       <li><a href="index.html">Home</a></li>
-                      <li class="active"><a href="services.html">Services<span class="sr-only">(current)</span></a></li>
+                      <li class="active"><a href="services.html">Services <span class="sr-only">(current)</span></a></li>
                       <li><a href="about.html">About</a></li>
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
-                    <p class="navbar-text navbar-right"><span class="phnum"><b>Phone number :</b>1-800-555-5555</span></p>
+                    <div class="row">
+                    <p class="navbar-text phonetext"><a href="tel:1800555555" class="phnum"><span class=""><b><span class="hidden-xs"> Phone number :</span></b>1-800-555-5555</span></a></p>
+                    <img src="img/lockandsecurity1.png" class="lock-logo hidden-xs">
+                    </div>
                   </div><!-- /.navbar-collapse -->
 
                 </div><!-- /.container-fluid -->
@@ -60,15 +64,20 @@
     <h1 class="text-center titles">Services</h1>
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title"><b>Sloth Cleaning</b></h3>
+          <h3 class="panel-title"><b>Commercial</b></h3>
         </div>
             <div class="panel-body">
               <div class="row row-eq-height service">
                 <div class="thumbnail thumbnail-services col-md-3">
-                    <img src="img/slothbig.png" alt="..." class="img-rounded">
+                    <img src="img/NHSdoorlock.png" alt="..." class="img-rounded">
                 </div>
                 <div class="col-med-9 services-text">
-                Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is!Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is!
+                <ul>
+                  <li>Locksmithing</li>
+                  <li>ADA Compliant Door Openers / Closers</li>
+                  <li>Steel Doors service/installation</li>
+                  <li>ADA upgrades</li>
+                </ul>
 
                 </div>
               </div>
@@ -76,15 +85,18 @@
       </div>
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title"><b>Sloth Cleaning</b></h3>
+          <h3 class="panel-title"><b>Safes</b></h3>
         </div>
             <div class="panel-body">
               <div class="row row-eq-height service">
                 <div class="thumbnail thumbnail-services col-md-3">
-                    <img src="img/slothbig.png" alt="..." class="img-rounded">
+                    <img src="img/NHSsafe.png" alt="..." class="img-rounded">
                 </div>
                 <div class="col-med-9 services-text">
-                Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is!Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is!
+                <ul>
+                  <li>Service / Sales / Opening</li>
+                  <li>GSA Certified Inspector</li>
+                  </ul>
 
                 </div>
               </div>
@@ -92,31 +104,36 @@
       </div>
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title"><b>Sloth Cleaning</b></h3>
+          <h3 class="panel-title"><b>Access Control Systems</b></h3>
         </div>
             <div class="panel-body">
               <div class="row row-eq-height service">
                 <div class="thumbnail thumbnail-services col-md-3">
-                    <img src="img/slothbig.png" alt="..." class="img-rounded">
+                    <img src="img/NHScam.png" alt="..." class="img-rounded">
                 </div>
                 <div class="col-med-9 services-text">
-                Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is!Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is!
-
+                <ul>
+                <li>Service / Sales / Opening</li>
+                <li>GSA Certified Inspector</li>
+                </ul>
                 </div>
               </div>
             </div>
       </div>
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title"><b>Sloth Cleaning</b></h3>
+          <h3 class="panel-title"><b>Licensed / Bonded / Insurance </b></h3>
         </div>
             <div class="panel-body">
               <div class="row row-eq-height service">
                 <div class="thumbnail thumbnail-services col-md-3">
-                    <img src="img/slothbig.png" alt="..." class="img-rounded">
+                    <img src="img/NHSmap.png" alt="..." class="img-rounded">
                 </div>
                 <div class="col-med-9 services-text">
-                Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is!Look how clean that sloth is! Look how clean that sloth is!  Look how clean that sloth is!  Look how clean that sloth is!
+               <ul>
+                <li>Over 45 Years Experience </li>
+                <li>Servicing the greater Sacramento Area</li>
+                </ul>
 
                 </div>
               </div>

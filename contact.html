@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -34,23 +35,26 @@
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand hidden-xs" href="#">
-                        <img alt="Brand" src="img/NHSlogosm.png" >
+                    <a class="navbar-brand hidden-xs brand-big " href="#">
+                        <img alt="Brand" src="img/logolarge1.png" >
                     </a>
-                    <a class="navbar-brand visible-xs" href="#">
-                        <img alt="Brand" src="img/NHSlogoxs.png" >
+                    <a class="navbar-brand visible-xs brand-small" href="#">
+                        <img alt="Brand" src="img/logolarge1.png" >
                     </a>
                   </div>
 
                   <!-- Collect the nav links, forms, and other content for toggling -->
                   <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav ">
+                    <ul class="nav pad-left navbar-nav main-navbar">
                       <li><a href="index.html">Home</a></li>
                       <li><a href="services.html">Services</a></li>
                       <li><a href="about.html">About</a></li>
                       <li class="active"><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
                     </ul>
-                    <p class="navbar-text navbar-right"><span class="phnum"><b>Phone number :</b>1-800-555-5555</span></p>
+                    <div class="row">
+                    <p class="navbar-text phonetext"><a href="tel:1800555555" class="phnum"><span class=""><b><span class="hidden-xs"> Phone number :</span></b>1-800-555-5555</span></a></p>
+                    <img src="img/lockandsecurity1.png" class="lock-logo hidden-xs">
+                    </div>
                   </div><!-- /.navbar-collapse -->
 
                 </div><!-- /.container-fluid -->

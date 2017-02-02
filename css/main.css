@@ -94,7 +94,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+/*sets the logos height and locaitons */
 .brand-small>img{
     height:45px;
     width: 81;
@@ -113,7 +113,7 @@ textarea {
     margin-right: 10px;
 
 }
-
+/*sets the genreal style for body and titles */
 body{
     background: #4c4c4c url("../img/footer_lodyas.png") repeat left top;
     height: 100%;
@@ -206,6 +206,13 @@ ul.pad-left{
 
 .about-text{
     color: #cbcbcb;
+}
+
+.home-map>img{
+    width: 335px;
+    float: left;
+
+
 }
 
 /* nav bar settings */
