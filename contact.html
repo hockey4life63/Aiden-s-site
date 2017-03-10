@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>*Name_here</title>
+        <title> NH Lock and Security</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,6 +16,7 @@
         <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <meta name="referrer" content="origin">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -50,24 +51,36 @@
                       <li><a href="services.html">Services</a></li>
                       <li><a href="about.html">About</a></li>
                       <li class="active"><a href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
+                    <p class="navbar-text phonetext visible-xs"><a href="tel:19168893521" class="phnum"><span class=""><b>1-916-889-3521</b></span></a></p>
                     </ul>
-                    <div class="row">
-                     <p class="navbar-text phonetext"><a href="tel:19168893521" class="phnum"><span class=""><b><span class="hidden-xs"> Phone number :</span></b>1-916-889-3521</span></a></p>
-                    </div>
+                    <ul class="nav navbar-nav pull-right phnum">
+                        <p class="navbar-text phonetext hidden-xs"><span class=""><b>1-916-889-3521</b></span></p>
+                    </ul> 
+
                   </div><!-- /.navbar-collapse -->
 
                 </div><!-- /.container-fluid -->
             </nav>    
     </header>
-     
+    <div class="container">
+    <form method="POST" action="http://formspree.io/Amelancon68@gmail.com">
+  <input type="email" name="email" placeholder="Your email">
+  <div class="form-group"> <!-- Message input !-->
+    <label class="control-label " for="message_id">Message</label>
+    <textarea class="form-control" id="message_id" name="message" rows="5"></textarea>
+  </div>
+  <button type="submit">Send</button>
+</form>
+</div>
 
-     <footer class="footer">
+     <footer class="footer hidden-xs">
 
       <div class="container">
 
         <div class="row navbar-static-bottom">
-            
-            <div class="col-md-4">
+        <div class="navbar-fixed-bottom">
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
 
                 <hr width="100%" align="left">
 
@@ -76,7 +89,7 @@
             <div class="col-md-4 ">
                 <nav class="navbar-default">
 
-                    <ul class="nav navbar-nav footie">
+                    <ul class="nav navbar-nav footie footie-fixed">
 
                         <li>
 
@@ -105,11 +118,13 @@
 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-3">
 
                 <hr width="100%" align="right">
 
             </div>
+            <div class="col-md-1"></div>
+        </div>
 
         </div>
 

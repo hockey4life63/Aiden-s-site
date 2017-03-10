@@ -101,15 +101,15 @@ textarea {
 }
 
 .brand-big>img{
-    height: 75px;
+    height: 40px;
     display: block;
-    margin-top: 10px;
+    margin-top: 3px;
 }
 
 .lock-logo{
     height: 25px;
     float: right;
-    margin-top:10px;
+    margin-top:0px;
     margin-right: 10px;
 
 }
@@ -123,12 +123,15 @@ h1{
     margin-top: 0;
 }
 h1.titles{
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Arvo', serif;;
     color: #0d3881;
     font-size: 50px;
 }
 ul.pad-left{
     padding-left: 0px;
+}
+ul{
+    list-style-type: none;
 }
 /*set the carousel on main page */
 .carousel-caption{
@@ -192,25 +195,43 @@ ul.pad-left{
     float: right;
 }
 
-
+/*about page */
 .thumbnail-services{
     background-color: #333333;
     border-width: 0;
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 .about-img{
-    margin-right:0;
+    margin-right:10px;
+    width: 400px;
 
+}
+
+.about-panel{
+    margin-left: 20px;
 }
 
 .about-text{
     color: #cbcbcb;
 }
 
+.hours-text>p{
+    font-size: 18px;
+}
+
+.location-text{
+    padding-left: 10px;
+}
+
+.location-text>p{
+    font-size: 25px;
+
+}
 .home-map>img{
     width: 335px;
     float: left;
+    margin-right: 10px;
 
 
 }
@@ -222,13 +243,15 @@ ul.pad-left{
 }
 
 .navbar-nav {
-  float: none;
+  float: bottom;
   text-align: center;
 }
 .phnum{
     color: #001f68;
-    font-size: 20px;
-    margin-left: 175px;
+    font-size: 35px;
+    margin-top: -10px;
+    padding-bottom: -25px;
+    margin-bottom: -25px;
 
 }
 
@@ -244,7 +267,7 @@ ul.pad-left{
     display: block;
 }
 .navbar-default {
-  background-color: #7f7f7f;
+  background-color: #5a5b5b;
   border-width: 0px;
   margin-bottom: 0px;
 }
@@ -305,7 +328,9 @@ ul.pad-left{
     display: inline-block;
 
 }
-.footie{
+.footie-fixed{
+    float: none;
+    margin: 0 auto;
 
 }
 
@@ -398,24 +423,28 @@ ul.pad-left{
 }
 /*my additions*/
 @media (max-width: 767px) {
-        .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: #cbcbcb;
     }
+
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #4c4c4c;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #4c4c4c;
     background-color: #999999;
-  }
-  .navbar-nav>li {
+    }
+
+    .navbar-nav>li {
   display: block;
     }
 
-        .carousel-caption>h3{
+
+    .carousel-caption>h3{
         font-size: 25px;
     }
 
