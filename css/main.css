@@ -124,7 +124,7 @@ h1{
 }
 h1.titles{
     font-family: 'Arvo', serif;;
-    color: #0d3881;
+    color: #406bb4;
     font-size: 50px;
 }
 ul.pad-left{
@@ -151,6 +151,14 @@ ul{
 
 .carousel-caption>p{
     font-size: 25px;
+    color: black;
+}
+.slide1{
+    text-align: left;
+    margin-left: -50px;
+}
+
+.slide3{
     color: black;
 }
 /* panel settings */
@@ -215,7 +223,7 @@ ul{
 .about-text{
     color: #cbcbcb;
 }
-
+/*home page */
 .hours-text>p{
     font-size: 18px;
 }
@@ -235,6 +243,12 @@ ul{
 
 
 }
+/* contact page */
+
+.contact-text{
+    font-size: 35px;
+}
+.contact-text>b{}
 
 /* nav bar settings */
 .main-navbar{
