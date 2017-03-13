@@ -230,6 +230,10 @@ ul{
 .about-text{
     color: #cbcbcb;
 }
+
+.about-textbox{
+    margin-left: 40px;
+}
 /*home page */
 .hours-text>p{
     font-size: 18px;
