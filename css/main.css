@@ -124,7 +124,7 @@ h1{
 }
 h1.titles{
     font-family: 'Arvo', serif;;
-    color: #406bb4;
+    color: #469efc;
     font-size: 45px;
 }
 .titles{
@@ -164,7 +164,7 @@ ul{
 }
 
 .slide2{
-    margin-left: -30%;
+    margin-left: -15%;
 }
 
 .slide3{
@@ -226,9 +226,6 @@ ul{
 
 }
 
-.about-panel{
-    margin-left: 20px;
-}
 
 .about-text{
     color: #cbcbcb;
