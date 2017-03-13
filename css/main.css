@@ -115,7 +115,7 @@ textarea {
 }
 /*sets the genreal style for body and titles */
 body{
-    background: #4c4c4c url("../img/footer_lodyas.png") repeat left top;
+    background: #4c4c4c url("../img/metal.jpg") repeat left top;
     height: 100%;
 }
 h1{
@@ -360,18 +360,22 @@ ul{
 
 .error{
     text-align: center;
-    margin-top: 20%;
-    margin-bottom: 0 auto;
 
+}
+
+.error-panel{
+    margin-top: 10%;
+    margin-bottom: 0 auto;
 }
 .error-link{
     text-align: center;
-    color: black;
+    color: #c0cbcb;
 }
 
 .licensed-text{
 
     font-size: 12PX;
+    font-weight: bold;
     color: #22558C;
     max-width: 50%;
     text-align: center;
