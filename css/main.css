@@ -125,7 +125,12 @@ h1{
 h1.titles{
     font-family: 'Arvo', serif;;
     color: #406bb4;
-    font-size: 50px;
+    font-size: 45px;
+}
+.titles{
+    font-family: 'Arvo', serif;;
+    color: #406bb4;
+    font-size: 45px;
 }
 ul.pad-left{
     padding-left: 0px;
@@ -246,7 +251,7 @@ ul{
 /* contact page */
 
 .contact-text{
-    font-size: 35px;
+    font-size: 25px;
 }
 .contact-text>b{}
 
@@ -346,6 +351,29 @@ ul{
     float: none;
     margin: 0 auto;
 
+}
+
+.error{
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 0 auto;
+
+}
+.error-link{
+    text-align: center;
+    color: black;
+}
+
+.licensed-text{
+
+    font-size: 12PX;
+    color: #22558C;
+    max-width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 0 auto;
+    margin-top: 45%%;
+    margin-bottom: 0 auto;+
 }
 
 
