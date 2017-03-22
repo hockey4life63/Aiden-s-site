@@ -236,7 +236,8 @@ ul{
 }
 /*home page */
 .hours-text>p{
-    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .location-text{
@@ -516,6 +517,26 @@ ul{
         
     }
 
+    .services-text>ul{
+        text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
+
+    }
+
+    .about-textbox{
+    margin-left: 0px;
+    align-self: center;
+    }
+
+    .about-img{
+    padding-left: 0;
+    max-width: 100%;
+    }
+
+    .about-text>h1{
+        text-align: center;
+    }
 
 }
 
